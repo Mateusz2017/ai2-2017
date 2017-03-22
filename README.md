@@ -32,6 +32,10 @@ not_bad
  OK  got: 'This dinner is good!' expected: 'This dinner is good!'
  OK  got: 'This tea is not hot' expected: 'This tea is not hot'
  OK  got: "It's bad yet not" expected: "It's bad yet not"
+ front_back
+ OK  got: 'abxcdy' expected: 'abxcdy'
+ OK  got: 'abcxydez' expected: 'abcxydez'
+ OK  got: 'KitDontenut' expected: 'KitDontenut'
  
  list1.py
  match_ends
