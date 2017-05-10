@@ -1,174 +1,118 @@
-# ai2-2017
+## ai2-2017
 
-# string1.py
+### string1.py
 
+```
 donuts
-
  OK  got: 'Number of donuts: 4' expected: 'Number of donuts: 4'
- 
  OK  got: 'Number of donuts: 9' expected: 'Number of donuts: 9'
- 
   X  got: 'Number of donuts: 10' expected: 'Number of donuts: many'
-  
  OK  got: 'Number of donuts: many' expected: 'Number of donuts: many'
  
 both_ends
-
  OK  got: 'spng' expected: 'spng'
- 
  OK  got: 'Helo' expected: 'Helo'
- 
  OK  got: '' expected: ''
- 
  OK  got: 'xyyz' expected: 'xyyz'
  
 fix_start
-
   X  got: 'babble' expected: 'ba**le'
-  
   X  got: 'aardvark' expected: 'a*rdv*rk'
-  
   X  got: 'google' expected: 'goo*le'
-  
  OK  got: 'donut' expected: 'donut'
  
 mix_up
-
  OK  got: 'pox mid' expected: 'pox mid'
- 
  OK  got: 'dig donner' expected: 'dig donner'
- 
  OK  got: 'spash gnort' expected: 'spash gnort'
- 
  OK  got: 'fizzy perm' expected: 'fizzy perm'
+ ```
  
- 
- # string2.py
- 
+ ### string2.py
+
+```
  verbing
- 
  OK  got: 'hailing' expected: 'hailing'
- 
  OK  got: 'swimingly' expected: 'swimingly'
- 
  OK  got: 'do' expected: 'do'
  
 not_bad
-
  OK  got: 'This movie is good' expected: 'This movie is good'
- 
  OK  got: 'This dinner is good!' expected: 'This dinner is good!'
- 
  OK  got: 'This tea is not hot' expected: 'This tea is not hot'
- 
  OK  got: "It's bad yet not" expected: "It's bad yet not"
  
  front_back
- 
  OK  got: 'abxcdy' expected: 'abxcdy'
- 
  OK  got: 'abcxydez' expected: 'abcxydez'
- 
  OK  got: 'KitDontenut' expected: 'KitDontenut'
+ ```
  
+ ### list1.py
  
- # list1.py
- 
+ ```
  match_ends
- 
  OK  got: 3 expected: 3
- 
  OK  got: 2 expected: 2
- 
  OK  got: 1 expected: 1
  
 front_x
-
  OK  got: ['xaa', 'xzz', 'axx', 'bbb', 'ccc'] expected: ['xaa', 'xzz', 'axx', 'bbb', 'ccc']
- 
  OK  got: ['xaa', 'xcc', 'aaa', 'bbb', 'ccc'] expected: ['xaa', 'xcc', 'aaa', 'bbb', 'ccc']
- 
  OK  got: ['xanadu', 'xyz', 'aardvark', 'apple', 'mix'] expected: ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
  
 sort_last
-
  OK  got: [(2, 1), (3, 2), (1, 3)] expected: [(2, 1), (3, 2), (1, 3)]
- 
  OK  got: [(3, 1), (1, 2), (2, 3)] expected: [(3, 1), (1, 2), (2, 3)]
- 
  OK  got: [(2, 2), (1, 3), (3, 4, 5), (1, 7)] expected: [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
+ ```
  
+ ### list2.py
  
- # list2.py
- 
+ ```
  remove_adjacent
- 
  OK  got: [1, 2, 3] expected: [1, 2, 3]
- 
  OK  got: [2, 3] expected: [2, 3]
- 
  OK  got: [] expected: []
  
 linear_merge
-
  OK  got: ['aa', 'bb', 'cc', 'xx', 'zz'] expected: ['aa', 'bb', 'cc', 'xx', 'zz']
- 
  OK  got: ['aa', 'bb', 'cc', 'xx', 'zz'] expected: ['aa', 'bb', 'cc', 'xx', 'zz']
- 
  OK  got: ['aa', 'aa', 'aa', 'bb', 'bb'] expected: ['aa', 'aa', 'aa', 'bb', 'bb']
- 
+```
 
-#lab1.py
+### lab1.py
 
+```
 Hello, world!
 
-```
   |  |  
-  
 --------
-
   |  |  
-  
 --------
-
   |  | 
-```  
-
-```
+ 
 --+--+--H--+--+--H--+--+--
-
   |  |  H  |  |  H  |  |  
-  
 --+--+--H--+--+--H--+--+--
-
   |  |  H  |  |  H  |  |  
-  
 --+--+--H--+--+--H--+--+--
 
 ========+========+========
 
 --+--+--H--+--+--H--+--+--
-
   |  |  H  |  |  H  |  |  
-  
 --+--+--H--+--+--H--+--+--
-
   |  |  H  |  |  H  |  |  
-  
 --+--+--H--+--+--H--+--+--
 
 ========+========+========
 
 --+--+--H--+--+--H--+--+--
-
   |  |  H  |  |  H  |  |  
-  
 --+--+--H--+--+--H--+--+--
-
   |  |  H  |  |  H  |  |  
-  
 --+--+--H--+--+--H--+--+--
-```
 
 
 0 3 5 6 9 10 12 15 18 20 21 24 25 27 30 33 35 36 39 40 42 45 48 50 51 54 55 57 60 63 65 66 69 70 72 75 78 80 81 84 85 87 90 93 95 96 99
@@ -187,236 +131,93 @@ Hello, world!
 975 978 980 981 984 985 987 990 993 995 996 999 1000 10 -> 5.0 -> 16.0 -> 8.0 -> 4.0 -> 2.0 -> 1.0
 
 -6.666666666666667
+```
 
- # lab1.py & lab2.py
- 
- ['a', '', '']
- 
-[[1], [1], [1]]
-
-****************
-
-object_reference
-
-None
-
-[1, 0, 0]
-
-Press [ENTER] to continue...
-
-***
-
-gcd
-
-None
-
-Press [ENTER] to continue...
-
-*********
-
-flip_dict
-
-None
-
-{'CA': ['ON'], 'US': ['CA', 'NY']}
-
-Press [ENTER] to continue...
-
-******************
-
-comprehension_read
-
-None
-
-[1, 2, 3, 4]
-
-[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
-
-[0, 3, 6, 9, 2, 5, 8, 1, 4, 7, 0, 3, 6, 9]
-
-['python']
-
-[None, None, None]
-
-[[3, 2, 1, 12], ['a', 'b', 'c', 'aaaa'], [('do',), ['re'], 'mi', ('do', 'do', 'do', 'do')]]
-
-['Y', 'O', 'N']
-
-{8, 2, 3, 5}
-
-Press [ENTER] to continue...
-
-*******************
-
-comprehension_write
-
-None
-
-[1, 3, 5, 7]
-
-[True, False, True, False]
-
-['sam', 'guido']
-
-['A', 'O', 'P']
-
-['apple', 'pear']
-
-[('apple', 5), ('orange', 6), ('pear', 4)]
-
-{'orange': 6, 'pear': 4, 'apple': 5}
-
-Press [ENTER] to continue...
-
-*****************
-
-is_cyclone_phrase
-
-None
-
-True
-
-Press [ENTER] to continue...
-
-*******************
-
-generate_pascal_row
-
-None
-
-[1, 5, 10, 10, 5, 1]
-
-Press [ENTER] to continue...
-
-Traceback (most recent call last):
-
-  File "C:\Users\student.INFORMATYKA\Desktop\lab2.py", line 111, in <module>
-  
-    for fn, args, kwargs in fns:
-    
-ValueError: need more than 2 values to unpack
-
->>> 
-
->>> 
-
-=========== RESTART: C:\Users\student.INFORMATYKA\Desktop\lab2.py ===========
-
-['a', '', '']
-
-[[1], [1], [1]]
-
-****************
-
-object_reference
-
-None
-
-[1, 0, 0]
-
-Press [ENTER] to continue...
-
-***
-
-gcd
-
-None
-
-Press [ENTER] to continue...
-
-*********
-
-flip_dict
-
-None
-
-{'CA': ['ON'], 'US': ['CA', 'NY']}
-
-Press [ENTER] to continue...
-
-******************
-
-comprehension_read
-
-None
-
-[1, 2, 3, 4]
-
-[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
-
-[0, 3, 6, 9, 2, 5, 8, 1, 4, 7, 0, 3, 6, 9]
-
-['python']
-
-[None, None, None]
-
-[[3, 2, 1, 12], ['a', 'b', 'c', 'aaaa'], [('do',), ['re'], 'mi', ('do', 'do', 'do', 'do')]]
-
-['Y', 'O', 'N']
-
-{8, 2, 3, 5}
-
-Press [ENTER] to continue...
-
-*******************
-
-comprehension_write
-
-None
-
-[1, 3, 5, 7]
-
-[True, False, True, False]
-
-['sam', 'guido']
-
-['A', 'O', 'P']
-
-['apple', 'pear']
-
-[('apple', 5), ('orange', 6), ('pear', 4)]
-
-{'orange': 6, 'pear': 4, 'apple': 5}
-
-Press [ENTER] to continue...
-
-
-*****************
-
-is_cyclone_phrase
-
-None
-
-True
-
-Press [ENTER] to continue...
-
-*******************
-
-generate_pascal_row
-
-None
-
-[1, 5, 10, 10, 5, 1]
-
-Press [ENTER] to continue...
-
-Done!
-
-
-# lab3.py
-
-I love Python!
-
-Keyword arguments are great!!!!
-
-I guess Java is okay...
-
-LET'S GO STANFORD!!
-
-Average of first 10 primes is 12.9
+ ### lab2.py
 
 ```
+ ['a', '', '']
+[[1], [1], [1]]
+
+****************
+
+object_reference
+None
+[1, 0, 0]
+Press [ENTER] to continue...
+
+***
+
+gcd
+None
+Press [ENTER] to continue...
+
+*********
+
+flip_dict
+None
+{'CA': ['ON'], 'US': ['CA', 'NY']}
+Press [ENTER] to continue...
+
+******************
+
+comprehension_read
+None
+[1, 2, 3, 4]
+[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
+[0, 3, 6, 9, 2, 5, 8, 1, 4, 7, 0, 3, 6, 9]
+['python']
+[None, None, None]
+[[3, 2, 1, 12], ['a', 'b', 'c', 'aaaa'], [('do',), ['re'], 'mi', ('do', 'do', 'do', 'do')]]
+['Y', 'O', 'N']
+{8, 2, 3, 5}
+Press [ENTER] to continue...
+
+*******************
+
+comprehension_write
+None
+[1, 3, 5, 7]
+[True, False, True, False]
+['sam', 'guido']
+['A', 'O', 'P']
+['apple', 'pear']
+[('apple', 5), ('orange', 6), ('pear', 4)]
+{'orange': 6, 'pear': 4, 'apple': 5}
+Press [ENTER] to continue...
+
+*****************
+
+is_cyclone_phrase
+None
+True
+Press [ENTER] to continue...
+
+*******************
+
+generate_pascal_row
+None
+[1, 5, 10, 10, 5, 1]
+Press [ENTER] to continue...
+Traceback (most recent call last):
+  File "C:\Users\student.INFORMATYKA\Desktop\lab2.py", line 111, in <module>
+    for fn, args, kwargs in fns: 
+ValueError: need more than 2 values to unpack
+>>> 
+>>> 
+#plik został już usunięty z serwera
+=========== RESTART: C:\Users\student.INFORMATYKA\Desktop\lab2.py ===========
+```
+
+### lab3.py
+
+```
+I love Python!
+Keyword arguments are great!!!!
+I guess Java is okay...
+LET'S GO STANFORD!!
+Average of first 10 primes is 12.9
+
 =========================
 | last_name   | Redmond |
 | first_name  |     Sam |
