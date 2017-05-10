@@ -186,7 +186,7 @@ Hello, world!
 
 -6.666666666666667
 
- # list1.py
+ # lab1.py & lab2.py
  
  ['a', '', '']
  
